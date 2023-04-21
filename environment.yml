@@ -1,0 +1,14 @@
+# conda env create -f environment.yml
+
+name: ipp
+channels:
+  - conda-forge
+  - numba
+dependencies:
+  - conda-forge::python=3.11.*
+  - numba::numba=0.57.*
+  - conda-forge::pip
+  - conda-forge::matplotlib
+  - conda-forge::scipy
+  - conda-forge::imageio
+
